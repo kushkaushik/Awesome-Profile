@@ -1,0 +1,151 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    margin: 0;
+        padding:0;
+    font-family: 'Metal Mania', cursive;
+    background-image: url(WhatsApp%20Image%202020-06-09%20at%202.05.04%20PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -5px -256px
+
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%);
+width: 500px;
+overflow: hidden;
+    text-align: center;
+    border: 1px solid grey;
+    background-image: url(WhatsApp%20Image%202020-06-09%20at%202.05.04%20PM.jpeg)
+}
+.image{
+    width: 60%;
+    height: 200px;
+margin-left: 100px;
+    margin-top: 30
+}
+
+img{
+height: 200px;
+    width: 60%;
+    border-radius: 50%;
+text-align: center;
+margin-top: -25px
+}
+
+
+.linemark{
+    font-size: 40px;
+    margin-bottom: 25px;
+background-color: #0d0d0d;
+/*     margin-left: 255px;*/
+    overflow: hidden;
+    border-bottom: solid 1px grey;
+
+
+}
+
+.line{
+    color: white;
+}
+
+
+
+
+.line:first-child{
+    
+    animation: side 12s infinite;
+}
+
+
+
+
+.line:nth-child(n) {
+    background-color: 
+}
+
+
+
+
+
+
+@keyframes side{
+    
+    
+    0%{margin-top: 0px}
+        10%{margin-top: -60px}
+    20%{margin-top: -120px}
+    35%{margin-top: -180px}
+    40%{margin-top: -240px}
+    50%{margin-top: -180px}
+    60%{margin-top: -120px}
+    70%{margin-top: -60px}
+    
+}
+
+
+
+
+
+
+.web{
+    font-size: 35px;
+    color:orangered;
+
+
+}
+
+.inside{
+    font-size: 20px;
+    color: #0d0d0;
+    font-weight: bold;
+}
+
+
+
+.media {
+    width: 300px;
+    }
+.media a{
+    margin: 0 25px;
+font-size: 30px;
+    float: left;
+    text-decoration: none;
+}
+
+.fb{
+    color:blue;
+    width: 25px;
+    border-radius: 9px;
+    
+}
+.fb:hover{
+    color:white;
+ }
+.li{
+    color:skyblue
+}
+
+.in{
+    color:orangered;
+}
+
+.in:hover{
+    background-color: red;
+    color: white;
+    border-radius:9px;
+}
+
+
+.li:hover{
+    color:white;
+}
+
+
+
+
+
